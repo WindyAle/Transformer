@@ -15,14 +15,14 @@ Transformer 구조 학습 및 실습을 위한 구현
   - 활성화 함수로 softmax 사용
 
 - **폴더 구조**
-```
-Transformer/
-├── main.ipynb            # main 파일 (테스트용)
-└── modules/
-    ├── MyTransformer.py  # 인코더-디코더
-    └── common.py         # 여러 번 재사용되는 구조들
-                          ## attention, Embedding, MultiHeadAttention, FeedForward
-```
+  ```
+  Transformer/
+  ├── main.ipynb            # main 파일 (테스트용)
+  └── modules/
+      ├── MyTransformer.py  # 인코더-디코더
+      └── common.py         # 여러 번 재사용되는 구조들
+                            ## attention, Embedding, MultiHeadAttention, FeedForward
+  ```
 
 - **사용 기술**
   - Python 3.12
